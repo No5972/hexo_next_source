@@ -23,6 +23,27 @@
         document.getElementById("cookie-alert").style.display = "none";
         localStorage.setItem('mask','true');
       }
+
+      window.onload = function () {
+        // IE Alert
+        if (!!window.ActiveXObject || "ActiveXObject" in window) {
+         var p = document.createElement("div");
+         p.style.color="#000";
+         p.style.position="absolute";
+         p.style.width="100%";
+         p.style.height="fit-content";
+         p.style.background="white";
+         p.style.left=0;
+         if(!localStorage.getItem('mask')){
+           p.style.top="32px";
+         } else {
+           p.style.top=0;
+         }
+         p.style.zIndex=1000;
+         p.innerHTML = "Please note that this site no longer supports Internet Explorer. Please use <a href='https://www.microsoft.com/edge'>Microsoft Edge</a> or other browsers to browse this site."
+         document.body.insertBefore(p, document.getElementsByClassName("cookie-alert")[0]);
+        }
+      }
     </script>
     <main class="main">
 
