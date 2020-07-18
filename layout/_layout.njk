@@ -16,7 +16,7 @@
     <div id="cookie-alert" style="position: absolute; width: 100%; height: fit-content; background: white; left: 0; top: 0; display: none; z-index: 1000;">We are using cookies in order to implement the comments and visitor counts. By browsing this website, you agree to our use of cookies. <a href="#" onclick="agreeCookies()">OK</a>&nbsp;|&nbsp;<a href="/cms/cookie-notice">Learn More &gt;</a></div>
     <script>
       if(!localStorage.getItem('mask')){
-       document.getElementById("cookie-alert").style.display = "unset";
+       document.getElementById("cookie-alert").style.display = "block;
       }
       
       function agreeCookies() {
