@@ -113,10 +113,10 @@ sidebar-toggle-position($reverse = false) {
   if (($scheme == 'Muse') || ($scheme == 'Mist')) {
     $condition = $condition == $reverse;
   }
-  if ($condition) {
-    left: $b2t-position-right;
+  if ($condition) { // original left
+    right: $b2t-position-right;
     +tablet-mobile() {
-      left: $b2t-position-right-mobile;
+      right: $b2t-position-right-mobile;
     }
   } else {
     right: $b2t-position-right;
