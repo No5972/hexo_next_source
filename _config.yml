@@ -119,7 +119,7 @@ menu:
   #tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  Toolkit: /2020/04/16/archivers/4/ || fa fa-wrench
+  Toolkit: /archivers/4.html || fa fa-wrench
   Donate: /donate/ || fa fa-child
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
