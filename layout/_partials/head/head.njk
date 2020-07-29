@@ -105,7 +105,7 @@
   {%- set pace_css_uri = theme.vendors.pace_css or '//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-' + theme.pace.theme + '.min.css' %}
   {%- set pace_js_uri = theme.vendors.pace or '//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js' %}
   <link rel="stylesheet" href="{{ url_for(pace_css_uri) }}">
-  <script src="{{ url_for(pace_js_uri) }}"></script>
+  <script data-pace-options='{ "ajax": false }' src="{{ url_for(pace_js_uri) }}"></script>
 {%- endif %}
 
 {{ next_config() }}
