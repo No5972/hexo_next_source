@@ -15,9 +15,17 @@ tbody tr {
     background: var(--table-row-odd-bg-color);
   }
 
+  &:nth-of-type(even) {
+    background: var(--table-row-even-bg-color);
+  }
+
   &:hover {
     background: var(--table-row-hover-bg-color);
   }
+}
+
+thead tr {
+  background: var(--table-header-bg-color);
 }
 
 caption, th, td {
