@@ -2,13 +2,13 @@
 
 {{- next_js('utils.js') }}
 {%- if theme.motion.enable %}
-  {{- next_js('motion.js') }}
+  <script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.5/source/js/motion.js"></script>
 {%- endif %}
 
 {%- set scheme_script = 'schemes/' + theme.scheme | lower + '.njk' %}
 {% include scheme_script %}
 
-{{- next_js('next-boot.js') }}
+<script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.5/source/js/next-boot.js"></script>
 {%- if theme.bookmark.enable %}
   {{- next_js('bookmark.js') }}
 {%- endif %}
