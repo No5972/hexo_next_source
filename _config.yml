@@ -116,11 +116,12 @@ menu:
   #home: / || fa fa-home
   Return: https://no5972.github.io || fa fa-reply
   about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
+  # tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   Toolkit: /archivers/4.html || fa fa-wrench
   Donate: /donate/ || fa fa-child
+  links: /links/ || fa fa-link
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -980,3 +981,26 @@ vendors:
 css: css
 js: js
 images: images
+
+
+# 友情链接
+defaultlinks:
+  - nickname: No.5972     # 昵称
+    avatar: https://cdn.jsdelivr.net/gh/No5972/Live2D@avatar/32865305.jpg    # 头像地址
+    site: http://no5972.github.io #友链地址
+    info: "No.5972 Publishment Website"
+
+
+friendslinks:
+  - nickname: 襄阳广播电视台     # 昵称
+    avatar: https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2906376082,3719746478&fm=58    # 头像地址
+    site: http://www.xyrtv.com/ #友链地址
+    info: 襄阳广电网
+  - nickname: 武汉广播电视台     # 昵称
+    avatar: https://dss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=4265208212,3008121294&fm=58    # 头像地址
+    site: http://www.whtv.com.cn/ #友链地址
+    info: 黄鹤云
+  - nickname: MicDz's blog     # 昵称
+    avatar: https://www.micdz.cn/img/h.png    # 头像地址
+    site: https://www.micdz.cn/ #友链地址
+    info: OIER
