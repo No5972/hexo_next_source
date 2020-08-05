@@ -77,6 +77,12 @@ footer:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
 
+  # Ad
+  ad:
+    enable: true
+    img: //s1.ax1x.com/2020/08/05/asuaq0.png
+    url: "#"
+
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
 # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
