@@ -2,6 +2,7 @@
 
 <script>
   if (typeof MathJax === 'undefined') {
+  /*
     window.MathJax = {
       loader: {
         source: {
@@ -35,6 +36,13 @@
             });
           }, '', false]
         }
+      }
+    };
+    */
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        processEscapes: true
       }
     };
     (function () {

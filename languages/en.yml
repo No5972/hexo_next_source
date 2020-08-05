@@ -17,6 +17,9 @@ menu:
   sitemap: Sitemap
   commonweal: Commonweal 404
   links: Site Navigation
+  Toolkit: Toolkit
+  Return: Return
+  Donate: Donate
 
 sidebar:
   overview: Overview
@@ -105,3 +108,17 @@ symbols_count_time:
   time: Reading time
   time_total: Reading time total
   time_minutes: mins.
+
+
+days_founded:
+  prefix: " "
+  suffix: " days since this blog's being founded"
+
+copyright:
+  prefix: "Original content of this site, except those works that are given appropriate credits, is licensed under a<br>"
+  link_text: "Creative Commons Attribution-ShareAlike 4.0 International License"
+  suffix: "."
+
+busuanzi:
+  uv: "UV: "
+  pv: "PV: "

@@ -15,6 +15,10 @@ menu:
   schedule: 日程表
   sitemap: 站点地图
   commonweal: 公益 404
+  Return: 返回
+  Toolkit: 工具
+  Donate: 打赏
+  links: 友链
 sidebar:
   overview: 站点概览
   toc: 文章目录
@@ -88,3 +92,13 @@ symbols_count_time:
   time: 阅读时长
   time_total: 站点阅读时长
   time_minutes: 分钟
+days_founded:
+  prefix: 本站点已安全运行
+  suffix: 天
+copyright:
+  prefix: "本站所有原创内容，除标明来源出处的，均适用 "
+  link_text: "CC-BY-SA 4.0 国际许可协议"
+  suffix: "，转载请注明出处。"
+busuanzi:
+  uv: "总访客量："
+  pv: "总访问量："
