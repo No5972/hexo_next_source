@@ -399,8 +399,8 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
-  permalink: https://github.com/yourname
+  enable: true
+  permalink: https://github.com/No5972
   title: Follow me on GitHub
 
 
@@ -527,7 +527,7 @@ fancybox: false
 # A JavaScript library for zooming images like Medium.
 # Do not enable both `fancybox` and `mediumzoom`.
 # For more information: https://github.com/francoischalifour/medium-zoom
-mediumzoom: false
+mediumzoom: true
 
 # Vanilla JavaScript plugin for lazyloading images.
 # For more information: https://github.com/ApoorvSaxena/lozad.js
@@ -915,9 +915,9 @@ vendors:
   # jquery: //unpkg.com/jquery@3/dist/jquery.min.js
   # fancybox: //unpkg.com/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   # fancybox_css: //unpkg.com/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-  jquery:
-  fancybox:
-  fancybox_css:
+  jquery: 
+  fancybox: 
+  fancybox_css: 
 
   # Medium-zoom
   # mediumzoom: //unpkg.com/medium-zoom@1/dist/medium-zoom.min.js
