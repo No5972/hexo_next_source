@@ -60,7 +60,7 @@
 
 window.onload = function () {
 	if (navigator.userAgent.lastIndexOf("Macintosh") != -1 || navigator.userAgent.lastIndexOf("Windows NT") != -1) {
-	if (navigator.userAgent.platform("Linux arm") == -1) // 手机浏览器不支持视频透明
+	if (navigator.userAgent.platform("Linux arm") == -1) { // 手机浏览器不支持视频透明
 		var v = document.createElement("video");
 		v.src = "https://cdn.jsdelivr.net/gh/No5972/Live2D@master-1/2ce423abb276a932119.mp4";	
 		v.loop = true;
