@@ -207,6 +207,8 @@
     {#####################}
     {### END POST BODY ###}
     {#####################}
+   
+    
 
     {%- if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
       {{ partial('_partials/post/post-related.njk') }}
@@ -214,6 +216,10 @@
 
     {%- if not is_index %}
       {{- next_inject('postBodyEnd') }}
+
+      {%- if post.isrepublish %}
+         <div style="color: #888a; font-family: DIN-Bold; background: #eee5; padding: 10px; margin-bottom: 10px;">Publishing this article is for the purpose of conveying more information, and does not mean agreeing with its views or confirming its description, nor does it mean that we are responsible for its authenticity. Should you have any questions or doubts about the content of the post, please don't hesitate to contact us. We will respond to you and deal with it as quickly as possible.</div>
+      {%- endif %}
 
       {%- if post.reward_settings.enable %}
         {{ partial('_partials/post/post-reward.njk') }}
