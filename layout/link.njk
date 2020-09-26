@@ -53,7 +53,7 @@
             .card .card-header {
                 font-style: italic;
                 overflow: hidden;
-                width: 236px;
+                width: 230px;
             }
             .card .card-header span {
                 font-style: normal;
@@ -98,15 +98,17 @@
 
              <div class="link-navigation">
                     {% for link in theme.friendslinks %}
-                    <a href="{{ link.site }}" target="_blank">
+                    
                     <div class="card">
-                        <img class="ava nofancybox" src="{{ link.avatar }}"/>
-                        <div class="card-header">
+                        <a href="{{ link.site }}" target="_blank">
+                        <img class="ava nofancybox" src="{{ link.avatar }}" style="display: inline"/>
+                        <div class="card-header" style="display: inline-block">
                         <div><span>{{ link.nickname }} </span></div>
                         <div class="info">{{ link.info }}</div>
                         </div>
+                        </a>
                     </div>
-		    </a>
+
 
                 {% endfor %}
 
