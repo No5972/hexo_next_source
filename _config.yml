@@ -183,6 +183,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/No5972 || fab fa-github
+  StackOverflow: https://stackoverflow.com/users/14547429/no-5972 || fab fa-stack-overflow
   E-Mail: mailto:wujiuqier#foxmail.com || fa fa-envelope
   RSS: /feed.xml || fa fa-rss
   CSDN: https://blog.csdn.net/qq_35977139 || iconfont icon-CN_csdnnet
@@ -192,7 +193,7 @@ social:
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
-  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
