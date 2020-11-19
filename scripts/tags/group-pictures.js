@@ -130,7 +130,7 @@ function groupPicture(args, content) {
 
   content = hexo.render.renderSync({text: content, engine: 'markdown'});
 
-  const pictures = content.match(/<img[\s\S]*?>/g);
+  const pictures = content.match(/(<a[^>]*>((?!<\/a)(.|\n))+<\/a>)|(<img[^>]+>)/g);
 
   return `<div class="group-picture">${templates.dispatch(pictures, group, layout)}</div>`;
 }
