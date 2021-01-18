@@ -110,7 +110,8 @@
             sessionStorage.setItem("lang", target.label);
           });
         });
-
+        
+        $("a[target=_blank]").each (function () { $(this).attr("onclick", "window.open('/cms/confirm.html?' + encodeURI($(this).attr(\"href\"))) ; return false;");} )
       }
 
       if (sessionStorage.getItem("lang") == "简体中文" && location.href.lastIndexOf("zh-CN") == -1) { 
