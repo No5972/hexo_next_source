@@ -143,7 +143,7 @@ function loadJS( url, callback ){
         if (pageLoadTime > 10000 && location.pathname == "/cms/") {
          loadJS("https://cdn.bootcdn.net/ajax/libs/layer/3.1.1/layer.min.js?v=" + new Date().getTime(), function () {
           layer.msg('本次访问网站消耗了 ' + pageLoadTime + ' 毫秒，访问较慢，推荐访问国内镜像站 https://no5972.gitee.io ，访问更快。', {
-            time: 6000, //20s后自动关闭
+            time: 10000, //20s后自动关闭
             btn: ['确认', '取消'],
             yes: function () {
               location.href="https://no5972.gitee.io/cms";
