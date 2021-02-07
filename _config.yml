@@ -121,7 +121,7 @@ darkmode: false
 menu:
   #home: / || fa fa-home
   Return: https://no5972.github.io || fa fa-reply
-  about: /about/ || fa fa-user
+  about: /about.html || fa fa-user
   # tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
