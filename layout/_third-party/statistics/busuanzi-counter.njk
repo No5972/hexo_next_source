@@ -28,14 +28,9 @@
     </span>
   {%- endif %}
 
-  {%- if theme.busuanzi_count.total_visitors and theme.busuanzi_count.total_views %}
-    <span class="post-meta-divider">|</span>
-    <span id="daysCount"></span>
-    <script>
-      document.getElementById("daysCount").innerText = "{{ __('days_founded.prefix') }}" + parseInt(Math.abs(new Date()  -  new Date("2018-11-14"))  /  1000  /  60  /  60  /24)   + "{{ __('days_founded.suffix') }}";
-    </script>
-  {%- endif %}
-
-
 </div>
 {%- endif %}
+<span id="daysCount"></span>
+<script>
+  document.getElementById("daysCount").innerText = "{{ __('days_founded.prefix') }}" + parseInt(Math.abs(new Date()  -  new Date("2018-11-14"))  /  1000  /  60  /  60  /24)   + "{{ __('days_founded.suffix') }}";
+</script>
