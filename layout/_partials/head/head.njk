@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="/cms/css/main.css">
   <link rel="stylesheet" href="/cms/lib/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="/cms/lib/animate-css/animate.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/static/api/css/share.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/No5972/Live2D@25/live2d/css/live2d.css" />
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/No5972/Live2D@25/live2d/css/live2d.css" />
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1939188_a27ywfkqq07.css">
   <!-- <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto%20Serif%20TC&display=swap&subset=latin,latin-ext"/> -->
   <!-- <link rel="stylesheet" href="https://fonts.font.im/css?family=Noto%20Serif%20SC&display=swap&subset=latin,latin-ext"/> -->
@@ -36,33 +36,33 @@
       width: 100%;
     }
   </style>
-  <!-- <script src="https://cdn.jsdelivr.net/gh/No5972/live2d-widget@20/autoload.js"></script> -->
+  <!-- <script src="https://fastly.jsdelivr.net/gh/No5972/live2d-widget@20/autoload.js"></script> -->
   
   
   <style>
     @font-face
     {
       font-family: HappyZcool-2016;
-      src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@10/zcoolhappy_1630.6.woff'); /* IE9+ */
+      src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@10/zcoolhappy_1630.6.woff'); /* IE9+ */
     }
 
     @font-face
     {
       font-family: CCKT;
-      src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@12/cckt.woff'); /* IE9+ */
+      src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@12/cckt.woff'); /* IE9+ */
     }
 
     
     @font-face
     {
       font-family: DIN-Bold;
-      src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@10/din-bold-2.otf'); /* IE9+ */
+      src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@10/din-bold-2.otf'); /* IE9+ */
     }
 
     @font-face
     {
         font-family: FreeSerif;
-        src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerif.otf');
+        src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@22/FreeSerif.otf');
         font-style: normal;
         font-weight: normal;
     }
@@ -70,7 +70,7 @@
 @font-face
 {
     font-family: FreeSerif;
-    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerif.otf');
+    src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@22/FreeSerif.otf');
     font-style: normal;
     font-weight: normal;
 }
@@ -78,7 +78,7 @@
 @font-face
 {
     font-family: FreeSerif;
-    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifBold.otf');
+    src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifBold.otf');
     font-style: normal;
     font-weight: bold;
 }
@@ -86,7 +86,7 @@
 @font-face
 {
     font-family: FreeSerif;
-    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifItalic.otf');
+    src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifItalic.otf');
     font-style: italic;
     font-weight: normal;
 }
@@ -94,7 +94,7 @@
 @font-face
 {
     font-family: FreeSerif;
-    src: url('https://cdn.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifBoldItalic.otf');
+    src: url('https://fastly.jsdelivr.net/gh/No5972/Live2D@22/FreeSerifBoldItalic.otf');
     font-style: italic;
     font-weight: bold;
 }
@@ -159,13 +159,13 @@
 {%- endif %}
 
 {%- if theme.fancybox %}
-  {%- set fancybox_css_uri = theme.vendors.fancybox_css or '//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css' %}
+  {%- set fancybox_css_uri = theme.vendors.fancybox_css or '//fastly.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css' %}
   <link rel="stylesheet" href="{{ url_for(fancybox_css_uri) }}">
 {%- endif %}
 
 {%- if theme.pace.enable %}
-  {%- set pace_css_uri = theme.vendors.pace_css or '//cdn.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-' + theme.pace.theme + '.min.css' %}
-  {%- set pace_js_uri = theme.vendors.pace or '//cdn.jsdelivr.net/npm/pace-js@1/pace.min.js' %}
+  {%- set pace_css_uri = theme.vendors.pace_css or '//fastly.jsdelivr.net/npm/pace-js@1/themes/blue/pace-theme-' + theme.pace.theme + '.min.css' %}
+  {%- set pace_js_uri = theme.vendors.pace or '//fastly.jsdelivr.net/npm/pace-js@1/pace.min.js' %}
   <link rel="stylesheet" href="{{ url_for(pace_css_uri) }}">
   <script data-pace-options='{ "ajax": false }' src="{{ url_for(pace_js_uri) }}"></script>
 {%- endif %}
