@@ -1,17 +1,17 @@
 {% include 'vendors.njk' %}
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.5/source/js/utils.js"></script>
+<script src="//unpkg.com/hexo-theme-next@8.0.0-rc.5/source/js/utils.js"></script>
 {%- if theme.motion.enable %}
-  <script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.5/source/js/motion.js"></script>
+  <script src="//unpkg.com/hexo-theme-next@8.0.0-rc.5/source/js/motion.js"></script>
 {%- endif %}
 
 {%- set scheme_script = 'schemes/' + theme.scheme | lower + '.njk' %}
 {% include scheme_script %}
 
-<script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.5/source/js/next-boot.js"></script>
+<script src="//unpkg.com/hexo-theme-next@8.0.0-rc.5/source/js/next-boot.js"></script>
 
 {%- if theme.bookmark.enable %}
-  <script src="//cdn.jsdelivr.net/npm/hexo-theme-next@8.0.0-rc.5/source/js/next-bookmark.js"></script>
+  <script src="//unpkg.com/hexo-theme-next@8.0.0-rc.5/source/js/next-bookmark.js"></script>
 {%- endif %}
 {%- if theme.pjax %}
   {% include 'pjax.njk' %}

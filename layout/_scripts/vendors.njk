@@ -1,5 +1,5 @@
 {%- if theme.canvas_ribbon.enable %}
-  {%- set canvas_ribbon_uri = theme.vendors.canvas_ribbon or '//cdn.jsdelivr.net/npm/ribbon.js@1/dist/ribbon.min.js' %}
+  {%- set canvas_ribbon_uri = theme.vendors.canvas_ribbon or 'unpkg.com/ribbon.js@1.0.2/dist/ribbon.min.js' %}
   <script size="{{ theme.canvas_ribbon.size }}" alpha="{{ theme.canvas_ribbon.alpha }}" zIndex="{{ theme.canvas_ribbon.zIndex }}" src="{{ url_for(canvas_ribbon_uri) }}"></script>
 {%- endif %}
 
