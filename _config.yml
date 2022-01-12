@@ -452,7 +452,7 @@ font:
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family: FreeSerif
+    family: Times
 
   # Font settings for <code> and code blocks.
   codes:
