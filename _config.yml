@@ -874,19 +874,19 @@ canvas_ribbon:
 # Remember to use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Available values: local, jsdelivr, unpkg
-  internal: jsdelivr
+  internal: unpkg
 
   # Internal version: 3.1.0
-  anime: //fastly.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
-  # anime: //unpkg.com/animejs@3.1.0/lib/anime.min.js
+  # anime: //fastly.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
+  anime: //unpkg.com/animejs@3.1.0/lib/anime.min.js
   # anime: //cdnjs.cloudflare.com/ajax/libs/animejs/3.1.0/anime.min.js
   # anime:
 
   # Internal version: 5.13.0
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
-  # fontawesome: //unpkg.com/@fortawesome/fontawesome-free@5/css/all.min.css
+  fontawesome: //unpkg.com/@fortawesome/fontawesome-free@5.13.0/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
-  fontawesome: //fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
+  # fontawesome: //fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
 
   # Prism
   # prism: //unpkg.com/prismjs@1/components/prism-core.min.js
@@ -949,9 +949,9 @@ vendors:
   disqusjs_css:
 
   # Valine
-  # valine: //unpkg.com/valine@1/dist/Valine.min.js
+  valine: //unpkg.com/valine@1/dist/Valine.min.js
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js
-  valine: //fastly.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
+  # valine: //fastly.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js
 
   # Gitalk
   # gitalk_js: //unpkg.com/gitalk@1/dist/gitalk.min.js
