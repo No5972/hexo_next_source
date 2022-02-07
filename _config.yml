@@ -168,7 +168,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://cdn.jsdelivr.net/gh/No5972/Live2D@10/32865305.jpg
+  url: https://fastly.jsdelivr.net/gh/No5972/Live2D@10/32865305.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -997,7 +997,7 @@ images: images
 # 友情链接
 defaultlinks:
   - nickname: No.5972     # 昵称
-    avatar: https://cdn.jsdelivr.net/gh/No5972/Live2D@avatar/32865305.jpg    # 头像地址
+    avatar: https://fastly.jsdelivr.net/gh/No5972/Live2D@avatar/32865305.jpg    # 头像地址
     site: http://no5972.github.io #友链地址
     info: "No.5972 Publishment Website"
 
