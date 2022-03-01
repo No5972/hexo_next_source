@@ -278,8 +278,8 @@ reward_settings:
 
 reward:
   #wechatpay: /images/wechatpay.png
-  # alipay: /sponsor.png
-  AFDian: /sponsor_afdian.png
+  alipay: /sponsor.png
+  # AFDian: /sponsor_afdian.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
