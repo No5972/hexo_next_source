@@ -168,7 +168,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://fastly.jsdelivr.net/gh/No5972/Live2D@10/32865305.jpg
+  url: https://no5972.moe/cms/static/32865305.jpg
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
