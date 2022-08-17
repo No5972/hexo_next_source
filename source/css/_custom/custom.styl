@@ -34,8 +34,12 @@ figure
 .site-nav ul.post-list
 	padding-left 0
 
-.marquee-container,#cookie-alert,.post-footer,.comments
+.marquee-container
 	@media (max-width: 767px)
+		display none
+
+#cookie-alert,.post-footer,.comments
+	@media print
 		display none
 
 .mathdefault
