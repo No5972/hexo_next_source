@@ -127,7 +127,7 @@ menu:
   archives: /archives/ || fa fa-archive
   Toolkit: /archivers/4.html || fa fa-wrench
   Donate: https://afdian.net/@wujiuqier || fa fa-child
-  links: /links/ || fa fa-link
+  # links: /links/ || fa fa-link
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
