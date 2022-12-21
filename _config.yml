@@ -620,7 +620,7 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true
+  enable: false
   appId: nOdccOqHtNBWpnoqXaBLw5Og-MdYXbMMI # Your leancloud application appid
   appKey: tYz6qEF31fk2WBHYsyO8RHQP # Your leancloud application appkey
   placeholder: Just go go # Comment box placeholder
