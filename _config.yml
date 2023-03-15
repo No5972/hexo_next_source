@@ -80,7 +80,7 @@ footer:
   # Ad
   ad:
     enable: true
-    img: https://pic1.xuehuaimg-x.com/proxy/https://img-blog.csdnimg.cn/1bc5c422398948feb54ddcb27faeaf04.jpg
+    img: https://images.weserv.nl/?url=https://img-blog.csdnimg.cn/1bc5c422398948feb54ddcb27faeaf04.jpg
     url: "https://curl.qcloud.com/WUYKGkn3"
 
 # Creative Commons 4.0 International License.
